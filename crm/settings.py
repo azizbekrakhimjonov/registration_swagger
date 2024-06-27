@@ -37,16 +37,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_registration',
     'rest_framework',
     'drf_yasg',
     'blog',
 ]
 
 REST_REGISTRATION = {
-'REGISTER_VERIFICATION_ENABLED': False,
-'REGISTER_EMAIL_VERIFICATION_ENABLED': False,
-'RESET_PASSWORD_VERIFICATION_ENABLED': False,
+    'REGISTER_VERIFICATION_ENABLED': False,
+    'REGISTER_EMAIL_VERIFICATION_ENABLED': False,
+    'RESET_PASSWORD_VERIFICATION_ENABLED': False,
 }
 
 
